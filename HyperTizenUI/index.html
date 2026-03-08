@@ -16,7 +16,12 @@
         <h3 id="status">Status</h3>
         <a><input type="checkbox" id="enabled"> Enabled</a>
         <h2 id="ssdpDeviceTitle">SSDP Devices</h2>
-        <div id="ssdpItems"></div>
+        <div id="ssdpItems">
+            <div class="ssdpItem" data-uri="ws://192.168.0.189:8090" data-friendlyName="Hyperion (169.254.24.32)" tabindex="0"
+                onclick="setRPC('ws://192.168.0.189:8090')">
+                <a>Hyperion (169.254.24.32)</a>
+            </div>
+        </div>
     </div>
 </body>
 
